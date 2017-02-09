@@ -1,5 +1,9 @@
+$('.navBar-bg').hide();
+
 $(document).ready(function(){
-  $('.navBar-bg').hide();
+
+
+  // controls navbar display
   $(window).scroll(function(){
   if($(window).scrollTop()>70){
     console.log($(window).scrollTop());
@@ -11,4 +15,12 @@ else {
   $('.navBar').show(500);
   }
 });
+
+
+$('.bars').on('click',function(){
+  console.log('clicking')
+  $('.dd-navs').slideToggle();
+})
+
+
 });

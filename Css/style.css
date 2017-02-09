@@ -1,0 +1,157 @@
+*{
+  -webkit-box-sizing:border-box;
+      -moz-box-sizing:border-box;
+          box-sizing:border-box;
+          margin: 0;
+          padding: 0;
+}
+/*navBar start*/
+.navBar{
+width: 100%;
+position: fixed;
+}
+.navBar-container{
+
+display: flex;
+justify-content: space-around;;
+}
+.logo{
+text-shadow: 1px 1px 1px #000;
+font-family: oswald;
+font-size: 1.5em;
+color:white;
+display: inline;
+justify-content: flex-start;
+}
+#technologies{
+text-shadow: 1px 1px 1px #000;
+color: darkgrey;
+font-size: 1em;
+}
+.navs{
+display: flex;
+justify-content: flex-end;
+}
+.nav{
+text-shadow: 1px 1px 1px #000;
+font-size: 1.2em;
+padding-left: .5em;
+padding-right: .5em;
+padding-top:15px;
+color:white;
+display: inline;
+}
+.navBar-bg{
+width: 100%;
+position: fixed;
+background-color:#BBD545;
+border-radius: 0px 0px 5px 5px;
+border-bottom: 2px solid #B7EA8B;
+}
+/*navBar end*/
+
+/*header start*/
+.header{
+  background-color: rgb(75,75,75);
+  width: 100%;
+  height: 50%;
+  background-image: url(header-logo.png);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  /*background-blend-mode: darken;*/
+}
+.header-container{
+  position: static;;
+  padding-top: 5em ;
+}
+.header-text{
+  font-family: oswald;
+  text-shadow: 1px 1px 1px #000;
+  font-size: 5em;
+  text-align: center;
+  color:white;
+}
+.header-h3{
+  text-shadow: 1px 1px 1px #000;
+  color:white;
+}
+cite{
+  text-shadow: 1px 1px 1px #000;
+  color: white;
+  padding-left: 4em;
+  padding-top: .4em;
+}
+.orange-text{
+  color: #FF803A;
+}
+.green-text{
+  color: #BDD436;
+}
+.center{
+  text-align: center;
+}
+.container-learn-more{
+  display: flex;
+  justify-content: center;
+}
+.myButton {
+  margin-top: 10px;
+  width: 340px;
+	background-color:#BBD545;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #BBD545;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:1.5em;
+	padding:16px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+/*header end*/
+
+/*hiw start*/
+.hiw-container{
+    background-color: #EEEEEE;
+    padding-bottom: 1em;
+}
+.hiw{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.hiw-text{
+  padding-top: 1em;
+  padding: 1em;
+  text-indent: 1em;
+  max-width: 25em;
+  font-size: 2em;
+}
+.pencilwrench-container{
+  display: flex;
+  justify-content: center;
+  margin-top:1em;
+}
+.pencilwrench{
+  max-width: 5em;
+  max-height: 5em;
+}
+.hereshiw{
+  text-shadow: 1px 1px 1px #000;
+  font-size: 2em;
+  text-align: center;
+}
+
+
+/*hiw end*/
